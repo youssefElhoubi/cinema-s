@@ -1,32 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-*{
+
+* {
     font-family: "Comfortaa", sans-serif;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     height: 2em;
     padding: 0 3em;
+    margin: 2em 0;
 }
-.navItems{
+
+.navItems {
     display: flex;
     align-items: center;
 }
-.search{
+.logo>p{
+    font-weight:bolder;
+    margin: 0.5em;
+}
+
+.search {
     position: relative;
 }
-ul{
+
+ul {
     display: flex;
     width: 25em;
     justify-content: space-between;
 }
-li{
+
+li {
     list-style: none;
 }
-.searchinput{
-    
+
+.searchinput {
+    height: 2em;
+    width: 18em;
+    border: 0px;
+    background-color: #FFCCFD;
+    padding-left: 2em;
+    border-radius: 25px;
+    outline: none;
 }
-.fa-magnifying-glass{
+
+.searchinput::placeholder {
+    color: white;
+}
+
+.fa-magnifying-glass {
     position: absolute;
-    left: 9em;
+    right: 1em;
+    top: 4px;
 }

@@ -2,3 +2,19 @@
 *{
     font-family: "Comfortaa", sans-serif;
 }
+.hero{
+    padding: 4em;
+    background: linear-gradient(90deg, #ca26ff 7%, #f4cac0 85%, #fff3b0 100%);
+    border-radius: 0 0 125px 0;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    color: #fff;
+    letter-spacing: 1em;
+}
+.lorem{
+    width: 50%;
+    color: white;
+}
