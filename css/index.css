@@ -11,6 +11,15 @@
     justify-content: space-between;
     flex-direction: row;
 }
+/* a class for cintring thecontent of a perent element  */
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centerrow{
+    padding: 0 5em;
+}
 h1{
     font-size: 3em;
     margin: 0px !important;
@@ -40,3 +49,64 @@ h2{
     align-self: end;
 }
 /* hero section end */
+.breaker{
+    margin-top: 1em;
+    position: relative;
+    border-top: 2px solid #000;
+}
+.breaker>p{
+    position: absolute;
+    top: -1.5em;
+    left: 3em;
+    background-color: #fff;
+}
+/* movies section */
+.movieSection{
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.movieSection > div{
+    width: 22%;
+}
+.movieImage{
+    border-radius: 25px;
+    width: 100%;
+    height: 29em;
+    
+}
+.imageTitle{
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    background-color: #330031;
+    border-radius: 25px;
+}
+/* explore more */
+.bolde{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    margin: 2em 0;
+}
+.ginra{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    padding-bottom: 6px;
+    border-bottom: #000  2px solid;
+    margin-bottom: 3em;
+
+}
+/* this class is puting a line under that the elment that is active  */
+.active::after{
+    content: "";
+    width: 100%;
+    height: 0.5em;
+    border-radius: 25px;
+    background-color: #933C24;
+    margin-top: 5px;
+    display: block;
+}
+

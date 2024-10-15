@@ -25,7 +25,7 @@ header {
     position: relative;
 }
 
-ul {
+.navelist {
     display: flex;
     width: 25em;
     justify-content: space-between;
