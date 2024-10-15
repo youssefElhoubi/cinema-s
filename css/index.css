@@ -2,19 +2,41 @@
 *{
     font-family: "Comfortaa", sans-serif;
 }
+/* hero section start */
 .hero{
     padding: 4em;
     background: linear-gradient(90deg, #ca26ff 7%, #f4cac0 85%, #fff3b0 100%);
     border-radius: 0 0 125px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 h1{
     font-size: 3em;
+    margin: 0px !important;
 }
 h2{
     color: #fff;
     letter-spacing: 1em;
 }
-.lorem{
+.hero > :first-child{
+    display: flex;
+    flex-direction: column;
     width: 50%;
+}
+.heroImage{
+    width: 29em;
+    height: 20em;
+}
+.lorem{
     color: white;
 }
+.btn{
+    background-color: black;
+    color: #FFCCFD;
+    width: 7em;
+    height: 3em;
+    border-radius: 25px;
+    align-self: end;
+}
+/* hero section end */
