@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-*{
+
+* {
     font-family: "Comfortaa", sans-serif;
 }
+
 /* hero section start */
-.hero{
+.hero {
     padding: 4em;
     background: linear-gradient(90deg, #ca26ff 7%, #f4cac0 85%, #fff3b0 100%);
     border-radius: 0 0 125px 0;
@@ -11,36 +13,44 @@
     justify-content: space-between;
     flex-direction: row;
 }
+
 /* a class for cintring thecontent of a perent element  */
-.center{
+.center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.centerrow{
+
+.centerrow {
     padding: 0 5em;
 }
-h1{
+
+h1 {
     font-size: 3em;
     margin: 0px !important;
 }
-h2{
+
+h2 {
     color: #fff;
     letter-spacing: 1em;
 }
-.hero > :first-child{
+
+.hero> :first-child {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
-.heroImage{
+
+.heroImage {
     width: 29em;
     height: 20em;
 }
-.lorem{
+
+.lorem {
     color: white;
 }
-.btn{
+
+.btn {
     background-color: black;
     color: #FFCCFD;
     width: 7em;
@@ -48,59 +58,68 @@ h2{
     border-radius: 25px;
     align-self: end;
 }
+
 /* hero section end */
-.breaker{
+.breaker {
     margin-top: 1em;
     position: relative;
     border-top: 2px solid #000;
 }
-.breaker>p{
+
+.breaker>p {
     position: absolute;
     top: -1.5em;
     left: 3em;
     background-color: #fff;
 }
+
 /* movies section */
-.movieSection{
+.movieSection {
     padding: 3em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.movieSection > div{
+
+.movieSection>div {
     width: 22%;
 }
-.movieImage{
+
+.movieImage {
     border-radius: 25px;
     width: 100%;
     height: 29em;
-    
+
 }
-.imageTitle{
+
+.imageTitle {
     font-size: 1.5em;
     text-align: center;
     color: #fff;
     background-color: #330031;
     border-radius: 25px;
 }
+
 /* explore more */
-.bolde{
+.bolde {
     font-weight: bold;
     font-size: xx-large;
     text-align: center;
     margin: 2em 0;
 }
-.ginra{
+
+.ginra {
     display: flex;
     justify-content: space-around;
     width: 70%;
     padding-bottom: 6px;
-    border-bottom: #000  2px solid;
+    border-bottom: #000 2px solid;
     margin-bottom: 3em;
 
 }
+
 /* this class is puting a line under that the elment that is active  */
-.active::after{
+.active::after {
     content: "";
     width: 100%;
     height: 0.5em;
@@ -110,3 +129,41 @@ h2{
     display: block;
 }
 
+/* the service section */
+.serviceSection {
+    padding: 0 5em;
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+.serviceSection > div{
+    width: 33%;
+}
+
+.serviceTitle {
+    background-color: #330031;
+    border-radius: 25px 25px 0 0;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.buy {
+    background-color: #330031;
+    border-radius: 0 0 25px 25px;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.service {
+    padding: 2em 1em;
+    background-color: #efefef;
+}
+
+.service>p {
+    margin: 2em;
+}
+p>span{
+    margin-left: 4em;
+}
