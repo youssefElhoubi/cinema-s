@@ -11,6 +11,14 @@ header {
     padding: 0 3em;
     margin: 2em 0;
 }
+/* some style fore the linkes */
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
 
 .navItems {
     display: flex;
