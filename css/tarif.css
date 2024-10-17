@@ -1,0 +1,47 @@
+.pagetitle{
+    background-color: #FF66FA;
+    text-align: center;
+    padding: 2em 0;
+    border-radius: 25px;
+    margin: 3em 0;
+}
+.tarif{
+    width: 35%;
+}
+.tarifTitle ,.tarifdescreption,.price{
+    text-align: center;
+    margin-bottom: 1em;
+    border-radius: 15px;
+}
+.tarifTitle{
+    background-color: #FF99FC;
+}
+.tarifdescreption{
+    height: 11em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #FF00F7;
+    font-size: x-large;
+    text-align: left;
+}
+.price{
+    background-color: #990094;
+    color: white;
+}
+.tarifTitle,.price{
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 4em;
+    gap: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
