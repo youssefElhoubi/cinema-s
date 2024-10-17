@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.pagetitle{
+    background-color: #FF66FA;
+    text-align: center;
+    padding: 2em 0;
+    border-radius: 25px;
+    margin: 3em 0;
+}
+/* the movies ginras */
+.ginra {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    padding-bottom: 6px;
+    margin: 3em auto;
+    /* border-bottom: #000 2px solid; */
+}
+.ginr{
+    width: 7em;
+    background-color: #CC00C6;
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    font-size:x-large;
+}
+.movies{
+    padding: 3em 5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.movie{
+    width: 43%;
+    background-color: #FFE4FE;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.movie img{
+    width: 15%;
+    border-radius: 15px;
+}
+.movieInfo{
+    padding-left: 1em;
+}
+.movie > button{
+    width: 15em;
+    outline: none;
+    border: none;
+    background-color: #000;
+    color: #FFCCFD;
+    border-radius: 25px;
+    height: 3em;
+}
+.movie{
+    margin-bottom:1em;
+}
