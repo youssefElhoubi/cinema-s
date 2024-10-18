@@ -130,7 +130,8 @@ h2 {
     gap: 2em;
 }
 .cinter>img{
-    width: 30%;
+    width: 25%;
+    height: 20em;
 }
 
 /* this class is puting a line under that the elment that is active  */
@@ -213,11 +214,11 @@ input[type="radio"]:checked+label {
     display: none;
 }
 
-#action:checked ~ .movie-container .actionMovies,
-#horror:checked ~ .movie-container .horrorMovies,
-#romance:checked ~ .movie-container .romanceMovies,
-#comedy:checked ~ .movie-container .comedyMovies,
-#thriller:checked ~ .movie-container .thrillerMovies,
-#fantasy:checked ~ .movie-container .fantasyMovies {
+#action:checked ~ .actionMovies,
+#horror:checked ~ .horrorMovies,
+#Romance:checked ~  .romanceMovies,
+#Comedy:checked ~ .comedyMovies,
+#Thriller:checked ~  .thrillerMovies,
+#Fantasy:checked ~  .fantasyMovies {
     display: block;
 }
