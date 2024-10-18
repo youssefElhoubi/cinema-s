@@ -19,11 +19,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
 }
 
-.centerrow {
+/* .centerrow {
     padding: 0 4em;
-}
+} I've found out that this was used for nothing , so I've removed it */
+
 
 h1 {
     font-size: 3em;
@@ -118,8 +120,21 @@ h2 {
 
 }
 
+.cinter {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    gap: 2em;
+}
+.cinter>img{
+    width: 30%;
+}
+
 /* this class is puting a line under that the elment that is active  */
-.active::after {
+/* .active::after {
     content: "";
     width: 100%;
     height: 0.5em;
@@ -127,19 +142,22 @@ h2 {
     background-color: #933C24;
     margin-top: 5px;
     display: block;
-}
+} this thing made some problems so i removed it */
+
 
 /* the service section */
-.services{
+.services {
     padding: 1em;
 }
+
 .serviceSection {
     padding: 0 5em;
     display: flex;
     margin: 3em 0;
     justify-content: space-between;
 }
-.serviceSection > div{
+
+.serviceSection>div {
     width: 33%;
 }
 
@@ -167,7 +185,39 @@ h2 {
 .service>p {
     margin: 2em;
 }
-p>span{
+
+p>span {
     margin-left: 4em;
 }
-input[]
+
+/* the filtering */
+/* becouse of this I hade to change the hole siling of the movies  */
+.ginr {
+    margin-bottom: 3em;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    margin: 2em;
+    margin-left: 4em;
+}
+
+input[type="radio"]:checked+label {
+    border-bottom: #933C24 4px solid;
+}
+
+.none {
+    display: none;
+}
+
+#action:checked ~ .movie-container .actionMovies,
+#horror:checked ~ .movie-container .horrorMovies,
+#romance:checked ~ .movie-container .romanceMovies,
+#comedy:checked ~ .movie-container .comedyMovies,
+#thriller:checked ~ .movie-container .thrillerMovies,
+#fantasy:checked ~ .movie-container .fantasyMovies {
+    display: block;
+}
